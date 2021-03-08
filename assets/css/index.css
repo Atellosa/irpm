@@ -67,7 +67,7 @@ header{
   font-family: 'Roboto', sans-serif;
   color:#fff!important;
 }
-.resalte-celeste{
+.resalte-celeste, .subtitular{
   color: #14B5E1!important;
 }
 #header img {
@@ -152,6 +152,8 @@ header{
 #formulario{
   background-color: #E5E5E5;
   box-shadow: 0 0 6px #666;
+  padding-right:15px;
+  padding-left: 15px;
 }
 
 /*////////////cambio de tamaños en responsivo///////////*/

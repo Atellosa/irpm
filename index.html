@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="assets/css/index.css"/>
@@ -231,13 +229,43 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg">
-            <h2 class="resalte-celeste text-left display-5"><strong>Contacto</strong></h2>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <h2 class="resalte-celeste text-left display-5"><strong>Contacto</strong></h2>
+                </div>
+              </div>
+              <div class="row mt-4 mb-4">
+                <div class="col">
+                  <h3 class="resalte-celeste"><img src="assets/iconos/gps.svg"/>&nbsp;&nbsp;Nuestras Sedes</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <h5><strong>Sede Perú</strong></h5>
+                  <h6 class="small">Avenida Javier Prado 123</h6>
+                </div>
+                <div class="col">
+                  <h5><strong>Sede Miami</strong></h5>
+                  <h6 class="small">Avenida Javier Prado 123</h6>
+                </div>
+                <div class="col">
+                  <h5><strong>Sede Chile</strong></h5>
+                  <h6 class="small">Avenida Javier Prado 123</h6>
+                </div>
+              </div>
+              <div class="row">
+                <div id="mapa" class="col">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.974789848095!2d-77.03479198518747!3d-12.04525549146833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b5edeb8a09%3A0x7eb1c1959e8e5786!2sKapital%20Shopping!5e0!3m2!1ses-419!2spe!4v1588550163857!5m2!1ses-419!2spe" width="100%" height="170" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-12 col-lg">
 
-            <form id="formulario" class="row g-3 rounded pb-4 pt-3 pl-4 pr-4 ml-4 mr-4">
+          <div class="col-12 col-lg">
+            <form id="formulario" class="row g-3 rounded pb-4 pt-3 pl-4 pr-4">
               <div class="col-md-6">
-                 <select class="form-select" aria-label="Default select example">
+                 <select class="form-select form-control-lg" aria-label="Default select example">
                   <option selected>Pais</option>
                   <option value="1">Perú</option>
                   <option value="2">Miami</option>
@@ -245,7 +273,7 @@
                 </select>
               </div>
               <div class="col-md-6">
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select form-control-lg" aria-label="Default select example">
                   <option selected>Servicio</option>
                   <option value="1">Agro Industrias</option>
                   <option value="2">Industriales</option>
@@ -256,19 +284,18 @@
                 </select>
               </div>
               <div class="col-12">
-                <input type="text" class="form-control" id="inputNombres" placeholder="Nombre">
+                <input type="text" class="form-control form-control-lg" id="inputNombres" placeholder="Nombre">
               </div>
               <div class="col-12">
-                <input type="email" class="form-control" id="inputEmail" placeholder="Correo Electrónico">
+                <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Correo Electrónico">
               </div>
               <div class="col-md-12">
-                <textarea class="form-control" id="inputComentario" rows="5" placeholder="Comentario"></textarea>
+                <textarea class="form-control form-control-lg" id="inputComentario" rows="5" placeholder="Comentario"></textarea>
               </div>
               <div class="col-12 text-center">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-lg btn-primary">Enviar</button>
               </div>
             </form>
-
           </div>
         </div>
       </div>
