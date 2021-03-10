@@ -108,7 +108,7 @@ header{
 #tarjetas .card{
   height: 353px;
   overflow:hidden;
-  cursor:pointer;  
+  /*cursor:pointer;*/
   position:relative;
   box-shadow: 0 0 6px #666;
   border: 0;
@@ -139,13 +139,60 @@ header{
   width:auto;
   margin: 0 auto;
 }
-
+.btn-outline-info{
+  border:2px solid #14B5E1;
+  color:#14B5E1;
+}
+.btn-outline-info:hover{
+  background-color: #14B5E1;
+  border:2px solid #14B5E1;
+  color:#fff;
+}
+.btn-primary{
+  border:2px solid #14B5E1;
+  background-color: #14B5E1;
+  color:#FFF;
+}
+.btn-primary:hover{
+  background-color: #00c8ff;
+  border:2px solid #00c8ff;
+  color:#fff;
+}
 #contacto {
   background-color: #c4c4c4;
   background-image: url("../images/relleno-blanco.jpg");
   background-repeat: repeat-x;
 }
-
+.bg-agro{
+  background-image: url("../iconos/industriales.svg");
+  background-position: 5px center;
+  background-repeat: no-repeat;
+}
+.bg-industrial{
+  background-image: url("../iconos/industriales.svg");
+  background-position: 5px center;
+  background-repeat: no-repeat;
+}
+.bg-terrenos{
+  background-image: url("../iconos/terreno.svg");
+  background-position: 5px center;
+  background-repeat: no-repeat;
+}
+.bg-viviendas{
+  background-image: url("../iconos/vivienda-sociales.svg");
+  background-position: 5px center;
+  background-repeat: no-repeat;
+}
+.bg-edificios{
+  background-image: url("../iconos/edificios.svg");
+  background-position: 5px center;
+  background-repeat: no-repeat;
+}
+.bg-locales{
+  background-image: url("../iconos/locales.svg");
+  background-position: 5px center;
+  background-repeat: no-repeat;
+}
 #contacto a {
   color: white;
 }
@@ -156,7 +203,10 @@ header{
   padding-left: 15px;
 }
 
-/*////////////cambio de tamaños en responsivo///////////*/
+#btn-areas, #tab-agro, #tab-industrial, #tab-terrenos, #tab-viviendas, #tab-edificios, #tab-locales{
+  display:none;
+}/*
+////////////cambio de tamaños en responsivo///////////*/
 
 @media (max-width: 993px) {
   #main h1{
